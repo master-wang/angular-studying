@@ -12,6 +12,7 @@ import { MenbersComponent } from './menbers/menbers.component';
 
 
 export const ROUTES: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'user' },
   { path: 'user', component: MySimpleTestComponent },
   { path: 'members', component: MenbersComponent }
 ];
