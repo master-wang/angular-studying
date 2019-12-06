@@ -8,6 +8,7 @@ import { MySimpleTestComponent } from './my-simple-test/my-simple-test.component
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenbersComponent } from './menbers/menbers.component';
+import { CounterComponent } from './menbers/counter.component';
 
 
 
@@ -21,7 +22,8 @@ export const ROUTES: Routes = [
   declarations: [ // 挂载组件
     AppComponent,
     MySimpleTestComponent,
-    MenbersComponent
+    MenbersComponent,
+    CounterComponent
   ],
   imports: [ // 导入模块，路由，http,表单
     BrowserModule,

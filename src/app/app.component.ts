@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   // templateUrl: './app.component.html',
   template: `
   <div class="app">
-    <h1>欢迎来到Angular的世界</h1>
+    <h1>Angular</h1>
     <nav>
       <a routerLink="/user">我的</a>
       <a routerLink="/members">Angular成员</a>
